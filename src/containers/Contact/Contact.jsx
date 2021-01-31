@@ -11,7 +11,7 @@ const Contact = () => {
     <div className="backgroundImage">
       <form
         className="container"
-        action="https://formspree.io/f/maylvrqp"
+        action="https://formspree.io/f/mbjpbjkp"
         method="post"
       >
         <section className="row">
