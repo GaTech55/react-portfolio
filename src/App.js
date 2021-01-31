@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./containers/About/About";
@@ -9,7 +9,7 @@ function App() {
   return (
     <body>
       <div className="App">
-        <Router>
+        <Router basename="/">
           <Navbar />
           <Switch>
             {/* Ordering from most specific to least specific for SWITCH. If using */}
