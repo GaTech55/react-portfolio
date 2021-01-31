@@ -22,16 +22,19 @@ const About = () => {
               {/* <!-- Added sub rows and columns to the webpage for the addition of 5 images. --> */}
               <section className="row" id="rowHeight">
                 <div className="col-sm-6">
-                  <Card image={Project1} title="Project: Net Time Traveler" />
-                  <Link to="https://gatech55.github.io/project-1/">
-                    Website Link
-                  </Link>
+                  <Card
+                    image={Project1}
+                    title="Project: Net Time Traveler"
+                    Website="https://gatech55.github.io/project-1/"
+                    GitHub="https://github.com/GaTech55/project-1"
+                  />
                 </div>
                 <div className="col-sm-6">
                   <Card
                     image={Project2}
                     title="Project: Code Crushers: Survive The Banana"
-                    description="Testing2"
+                    Website="https://limitless-bastion-03523.herokuapp.com/"
+                    GitHub="https://github.com/GaTech55/code-crushers-survive-the-banana-force"
                   />
                 </div>
               </section>
@@ -41,14 +44,16 @@ const About = () => {
                   <Card
                     image={PwGenerator}
                     title="Homework: Password Generator"
-                    description="Testing3"
+                    Website="https://gatech55.github.io/password-generator/"
+                    GitHub="https://github.com/GaTech55/password-generator"
                   />
                 </div>
                 <div className="col-sm-6">
                   <Card
                     image={WeatherDash}
                     title="Homework: Weather Dashboard"
-                    description="Testing4"
+                    Website="https://gatech55.github.io/WeatherDashboard/"
+                    GitHub="https://github.com/GaTech55/WeatherDashboard"
                   />
                 </div>
               </section>
@@ -58,14 +63,16 @@ const About = () => {
                   <Card
                     image={Burger}
                     title="Homework: Burger Consumption App"
-                    description="Testing5"
+                    Website="https://polar-inlet-14628.herokuapp.com/"
+                    GitHub="https://github.com/GaTech55/burger"
                   />
                 </div>
                 <div className="col-sm-6">
                   <Card
                     image={WorkDay}
-                    title="Homework: Work"
-                    description="Testing6"
+                    title="Homework: Work Day Scheduler"
+                    Website="https://gatech55.github.io/WorkDayScheduler/"
+                    GitHub="https://github.com/GaTech55/WorkDayScheduler"
                   />
                 </div>
               </section>

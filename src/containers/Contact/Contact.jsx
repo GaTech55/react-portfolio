@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Contact.css";
 // <form action="https://formspree.io/f/{form_id}" method="post">
 //   <label for="email">Your Email</label>
 //   <input name="Email" id="email" type="email">
@@ -69,6 +69,7 @@ const Contact = () => {
           </div>
         </section>
       </form>
+      <div className="invisible"></div>
     </div>
   );
 };

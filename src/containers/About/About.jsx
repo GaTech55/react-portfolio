@@ -30,11 +30,11 @@ const Home = () => {
                 using knowledge gained from additional certifications in ITIL
                 and Lean Six Sigma. I have a solid understanding of contract
                 management, knowledge management, entitlements, and reporting. I
-                am currently pursuing a
+                am currently pursuing a&#160;
                 <a href="https://bootcamp.pe.gatech.edu/coding/">
                   Georgia Institute of Technology Coding Boot Camp
                 </a>
-                certificate with an expected completion date of 02/2021.
+                &#160;certificate with an expected completion date of 02/2021.
               </p>
 
               <p>
@@ -50,21 +50,22 @@ const Home = () => {
               </p>
 
               <p>
-                If you would like to learn more please view my
+                If you would like to learn more please view my&#160;
                 <a href="https://www.linkedin.com/in/gatech55/">
                   LinkedIn profile
                 </a>
-                or visit my
+                &#160;or visit my&#160;
                 <a href="https://github.com/GaTech55">GitHub profile</a>. To
-                directly contact me please email
+                directly contact me please email&#160;
                 <a href="mailto:gatech55@gmail.com">GaTech55@gmail.com</a> or
                 call 256-520-0003. Finally, a copy of my resume can be
-                <a href={resume}>download here</a>.
+                <a href={resume}>&#160;download here</a>.
               </p>
             </div>
           </div>
         </section>
       </main>
+      <div className="invisible"></div>
     </div>
   );
 };

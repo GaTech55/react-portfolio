@@ -18,6 +18,11 @@ footer {
   margin-top: 5%;
   padding: 2%;
 }
+.card {
+  height: 100%;
+  width: 100%;
+  max-width: 900px;
+}
 .content {
   flex: 1 0 auto;
 }

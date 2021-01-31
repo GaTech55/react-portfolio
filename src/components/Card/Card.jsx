@@ -15,7 +15,12 @@ const Card = (props) => {
             />
             <div className="card-body">
               <h5 className="card-title">{props.title}</h5>
-              <p className="card-text">{props.description}</p>
+              <a className="card-link" href={props.Website}>
+                Website Link
+              </a>
+              <a className="card-link" href={props.GitHub}>
+                GitHub Repository
+              </a>
             </div>
           </div>
         </div>

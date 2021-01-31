@@ -18,6 +18,9 @@ footer {
   margin-top: 5%;
   padding: 2%;
 }
+.invisible {
+  height: 400px;
+}
 .content {
   flex: 1 0 auto;
 }
