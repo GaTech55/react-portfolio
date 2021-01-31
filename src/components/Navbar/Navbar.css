@@ -1,0 +1,65 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  background-color: rgb(102, 102, 102);
+  color: rgb(179, 163, 105);
+  text-align: center;
+  border-top: 8px solid rgb(255, 255, 255);
+  flex-shrink: 0;
+}
+.backgroundWhite {
+  background-color: white !important;
+  margin-top: 5%;
+  padding: 2%;
+}
+.content {
+  flex: 1 0 auto;
+}
+.moveRight {
+  text-align: right;
+}
+
+.backgroundColor {
+  background-color: rgb(179, 163, 105) !important;
+  border-color: rgb(179, 163, 105) !important;
+}
+.whiteText {
+  color: white !important;
+}
+.tealText {
+  color: rgb(179, 163, 105);
+}
+.familyTimes {
+  font-family: "Times New Roman", Times, serif;
+}
+.borderRadius {
+  border-radius: 0 !important;
+}
+.formPadding {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.btnPadding {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.imgPadding {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.pages {
+  margin-left: auto;
+}
+#aboutMe {
+  padding: 10px;
+}
+#rowHeight {
+  /* height: 400px; */
+  height: 100%;
+}
