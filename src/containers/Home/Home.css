@@ -18,6 +18,9 @@ footer {
   margin-top: 5%;
   padding: 2%;
 }
+.col-sm-6 {
+  height: 100px;
+}
 .content {
   flex: 1 0 auto;
 }

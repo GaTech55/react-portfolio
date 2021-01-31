@@ -38,7 +38,7 @@ const About = () => {
                   />
                 </div>
               </section>
-
+              <hr />
               <section className="row" id="rowHeight">
                 <div className="col-sm-6">
                   <Card
@@ -57,7 +57,7 @@ const About = () => {
                   />
                 </div>
               </section>
-
+              <hr />
               <section className="row" id="rowHeight">
                 <div className="col-sm-6">
                   <Card
@@ -76,6 +76,7 @@ const About = () => {
                   />
                 </div>
               </section>
+              <hr />
             </div>
           </div>
         </section>

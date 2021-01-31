@@ -34,7 +34,7 @@ const Contact = () => {
                     placeholder="Name"
                   />
                 </div>
-
+                <br />
                 <div className="form-group formPadding">
                   <label for="InputEmail">Email</label>
                   <input
@@ -46,7 +46,7 @@ const Contact = () => {
                     placeholder="Email"
                   />
                 </div>
-
+                <br />
                 <div className="form-group formPadding">
                   <label for="InputMessage">Message</label>
                   <textarea
@@ -57,7 +57,7 @@ const Contact = () => {
                     rows="3"
                   ></textarea>
                 </div>
-
+                <br />
                 <button
                   type="submit"
                   className="btn btn-primary backgroundColor borderRadius btnPadding"

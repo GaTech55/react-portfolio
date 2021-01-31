@@ -61,8 +61,11 @@ footer {
   padding-bottom: 3%;
 }
 .imageCard {
-  width: 100%;
+  width: 350px;
   max-width: 900px;
+}
+.test {
+  width: 500px;
 }
 #aboutMe {
   padding: 10px;

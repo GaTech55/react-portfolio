@@ -6,7 +6,7 @@ const Card = (props) => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-sm-8 backgroundWhite">
+        <div className="col-sm-8 backgroundWhite test">
           <div className="card">
             <img
               src={props.image}
@@ -18,6 +18,7 @@ const Card = (props) => {
               <a className="card-link" href={props.Website}>
                 Website Link
               </a>
+              <br />
               <a className="card-link" href={props.GitHub}>
                 GitHub Repository
               </a>
